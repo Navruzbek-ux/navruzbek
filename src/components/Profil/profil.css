@@ -1,0 +1,97 @@
+.box6 {
+    width: 1000px;
+    height: 700px;
+    -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    margin-left: 450px;
+    margin-top: -700px;
+    border-radius: 20px;
+    background: #f1c37b;
+    padding-top: 350px;
+}
+
+.div5 img {
+    width: 100px;
+    height: 100px;
+}
+
+.div4 {
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+
+}
+
+.div5 {
+border-radius: 50%;
+    border: 1px solid yellow;
+    justify-items: center;
+    width: 200px;
+    height: 150px;
+    margin-left: 400px;
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 0px 47px 27px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 47px 27px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 47px 27px rgba(34, 60, 80, 0.2);
+
+}
+
+.div4:hover {
+    -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+}
+
+.div4 a {
+    font-size: 25px;
+    margin-left: 170px;
+}
+.yozuv3{
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;    text-align: center;
+    font-size: 50px;
+margin-left: -650px;
+
+}
+@media only screen and (min-width: 68px) and (max-width: 1023px) {
+    .box6{
+        width: 400px;
+        margin-left: 300px;
+    }
+    .box6 div{
+margin-left: 100px;
+    }
+    .box6 h4{
+        margin-left: 1px;
+    }
+    .div7 {
+        margin-left: -200px!important;
+    }
+    .div7 div {
+        width: 300px!important;
+    }
+    .div4 a {
+        margin-left: 100px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+    .box6{
+        width: 700px!important;
+        margin-left: 400px;
+    }
+    .yozuv3{
+        margin-left: 100px;
+    }
+    .div5{
+        margin-left: 300px;
+    }
+    .div7{
+        width: 740px!important;
+    }
+    .div4{
+        margin-left: 150px!important;
+    }
+    .box6 div {
+    }
+}
+

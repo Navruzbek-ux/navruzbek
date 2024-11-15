@@ -1,0 +1,33 @@
+.box5 {
+    width: 1000px;
+    height: 700px;
+    -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    margin-left: 450px;
+    margin-top: -700px;
+    border-radius: 20px;
+    background: #f1c37b;
+}
+.box5 h4 {
+    font-size: 40px;
+    opacity: 0.2;
+    margin-left: 250px;
+    padding-top: 300px;
+}
+@media only screen and (min-width: 68px) and (max-width: 1023px){
+    .box5{
+        width:  300px!important;
+        margin-left: 300px;
+    }
+    .box5 h4 {
+        font-size: 10px!important;
+        margin-left: 110px;
+    }
+
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+    .box5{
+        width: 800px;
+        margin-left: 400px;
+    }
+}

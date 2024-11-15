@@ -1,0 +1,65 @@
+.box6 {
+    width: 1000px;
+    height: 700px;
+    -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    margin-left: 450px;
+    margin-top: -700px;
+    border-radius: 20px;
+    background: #f1c37b;
+}
+.box6 input{
+    width: 200px;
+    margin-left:20px;
+    margin-top: -300px;
+    background: #d7e3f1;
+    color: #A31925;
+
+}
+.div8{
+    width: 900px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 24px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius:50px ;
+    -webkit-box-shadow: -17px -23px 53px -28px rgba(226, 168, 46, 0.9) inset;
+    -moz-box-shadow: -17px -23px 53px -28px rgba(226, 168, 46, 0.9) inset;
+    box-shadow: -17px -23px 53px -28px rgba(226, 168, 46, 0.9) inset;
+    display: flex;
+    flex-direction: row;
+}
+.div8 h4{
+    margin-left: 40px;
+
+}
+.div8 a{
+    margin-left: 350px;
+    font-size: 23px;
+
+}
+@media only screen and (min-width: 68px) and (max-width: 1023px){
+    .box6{
+        width:  400px!important;
+        margin-left: 300px;
+    }
+    .box6 h4 {
+        font-size: 15px!important;
+        margin-left: 110px;
+    }
+    .box6 a{
+        margin-left: 50px!important;
+        font-size: 11px;
+    }
+    .box6 div {
+        width: 400px;
+        margin-left: -10px;
+    }
+
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+    .box6{
+        width: 800px;
+        margin-left: 400px;
+    }
+}
